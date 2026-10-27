@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://callby.app/sitemap.xml

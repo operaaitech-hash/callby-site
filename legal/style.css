@@ -1,0 +1,16 @@
+:root { color-scheme: dark; --bg:#171717; --panel:#1f1f1f; --line:#2e2e2e; --text:#f3f1ec; --muted:#9a978f; --gold:#e7c495; }
+* { box-sizing: border-box; }
+html, body { margin:0; background:var(--bg); color:var(--text); font-family: -apple-system, "SF Pro Text", Inter, "Segoe UI", system-ui, sans-serif; line-height:1.55; }
+main { max-width: 720px; margin: 0 auto; padding: 32px 20px 64px; }
+.brand { display:flex; align-items:center; gap:10px; margin-bottom: 28px; }
+.brand img { width:22px; height:22px; }
+.brand span { letter-spacing:.34em; font-weight:700; font-size:14px; }
+.eyebrow { font-size:11px; letter-spacing:.18em; text-transform:uppercase; color:var(--gold); margin:0 0 6px; }
+h1 { font-size:28px; font-weight:600; margin:0 0 6px; line-height:1.15; }
+.updated { color:var(--muted); font-size:13px; margin:0 0 28px; }
+h2 { font-size:17px; font-weight:600; margin:28px 0 8px; }
+p, li { font-size:15px; color:#dedbd4; }
+ul { padding-left: 20px; }
+a { color:var(--gold); }
+.card { background:var(--panel); border:1px solid var(--line); border-radius:16px; padding:16px 18px; margin:16px 0; }
+footer { margin-top:40px; padding-top:16px; border-top:1px solid var(--line); color:var(--muted); font-size:13px; }
